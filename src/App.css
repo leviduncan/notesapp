@@ -19,6 +19,9 @@ h1 {
   border-radius: 10px;
   border: solid 1px #ddd;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
 
 .read-the-docs {

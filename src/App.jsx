@@ -8,10 +8,13 @@ function App() {
 
   return (
     <>
-      <h1>COUNT</h1>
+      <h1>COUNT {count}</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
+          ADD 1
+        </button>
+        <button onClick={() => setCount((count) => count - 1)}>
+          MINUS 1
         </button>
       </div>
       <p className="read-the-docs">
